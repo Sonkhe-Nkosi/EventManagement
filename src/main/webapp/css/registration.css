@@ -1,0 +1,55 @@
+
+/* Style for the sidebar */
+.side-nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    display: block;
+    margin: 10px 0;
+    background-color: #f8f9fa;
+}
+
+.side-nav a:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+/* Style for the event registration form */
+#registrationFormContainer {
+    padding: 20px;
+    margin-left: 220px; /* Align with the sidebar */
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+#registrationForm input[type="text"],
+#registrationForm input[type="date"],
+#registrationForm input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#registrationForm input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#registrationForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
